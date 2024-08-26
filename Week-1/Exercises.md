@@ -44,12 +44,12 @@ Expected number=Number of pairs of people × Number of visits× Probabili
 ## Document Frequency
 
 - **1.3.1**
-### (a)
+(a)
 $$
 \text{IDF} = \log_2\left(\frac{10\,\text{million}}{40}\right) = \log_2(250\,\text{thousand}) \approx 17.9 \approx 18
 $$
 
-### (b)
+(b)
 $$
 \text{IDF} = \log_2\left(\frac{10\,\text{million}}{10\,\text{thousand}}\right) = \log_2(1\,\text{thousand}) \approx 9.97 \approx 10
 $$
@@ -62,6 +62,7 @@ Given:
 - **Maximum frequency in a document** ($\text{maxfi}$) = 15
 
 (a) When $f_{ij} = 1$:
+
 $$
 \text{TF} = \frac{1}{15}
 $$
@@ -73,6 +74,7 @@ $$
 $$
 
 (b) When $f_{ij} = 5$:
+
 $$
 \text{TF} = \frac{5}{15} = \frac{1}{3}
 $$
