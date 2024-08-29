@@ -15,9 +15,9 @@ Original sentence: *An “event”  in this sense is a pair of people and a pair
 
 Number of suspected pairs?
 
-Chance that they will visit the same hotel three days = $10^{-9}\cdot 10^{-9} \cdot 10^{-9}$ = $10^{-27}$
+Chance that they will visit the same hotel three days = $10^{-9}\cdot 10^{-9} \cdot 10^{-9} = 10^{-27}$
 
-Number of pairs of people = $\binom{2\cdot10^9}{2}$ = 1999999999 * $10^6$ or around $n^2/2$ = $2\cdot10^{18}$
+Number of pairs of people = $\binom{2\cdot10^9}{2}$ = 1999999999 * $10^6$ or around $n^2/2 = 2\cdot10^{18}$
 > Confirm with math.comb
 
 Number of "three days" = $\binom{2000}{3}$ = 1331334 * $10^3$  
@@ -68,9 +68,11 @@ Given:
 $$
 \text{TF} = \frac{1}{15}
 $$
+
 $$
 \text{IDF} = \log_2\left(\frac{10\,\text{million}}{320}\right) \approx 14.92
 $$
+
 $$
 \text{TF} \times \text{IDF} \approx \frac{1}{15} \times 14.92 \approx 0.9947
 $$
@@ -80,9 +82,11 @@ $$
 $$
 \text{TF} = \frac{5}{15} = \frac{1}{3}
 $$
+
 $$
 \text{IDF} = \log_2\left(\frac{10\,\text{million}}{320}\right) \approx 14.92 \quad (\text{same as above})
 $$
+
 $$
 \text{TF} \times \text{IDF} \approx \frac{1}{3} \times 14.92 \approx 4.97
 $$
