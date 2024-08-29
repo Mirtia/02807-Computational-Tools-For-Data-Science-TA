@@ -44,6 +44,7 @@ Expected number=Number of pairs of people × Number of visits× Probabili
 ## Document Frequency
 
 - **1.3.1**
+
 (a)
 
 $$
